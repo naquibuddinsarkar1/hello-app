@@ -1,4 +1,3 @@
-import streamlit as st
 from logic import greet
-st.title("Hello App")
-st.write(greet())
+def test_greet():
+    assert greet() == "Hello world"
